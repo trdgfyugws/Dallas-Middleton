@@ -11,7 +11,7 @@ sed -i "s#VMESS_WSPATH#${VMESS_WSPATH}#g;s#VLESS_WSPATH#${VLESS_WSPATH}#g;s#TROJ
 
 # 设置 nginx 伪装站
 rm -rf /usr/share/nginx/*
-wget https://gitlab.com/Misaka-blog/xray-paas/-/raw/main/mikutap.zip -O /usr/share/nginx/mikutap.zip
+wget https://www.free-css.com/assets/files/free-css-templates/download/page287/cakezone.zip -O /usr/share/nginx/mikutap.zip
 unzip -o "/usr/share/nginx/mikutap.zip" -d /usr/share/nginx/html
 rm -f /usr/share/nginx/mikutap.zip
 
